@@ -56,6 +56,7 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpg");
+      background-size: 100%;
       border-radius: 50%;
       border: solid 3px #ec193c; }
   .menu .nav-item {
@@ -160,10 +161,13 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
+  margin-top: 1rem;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
+    height: 250px;
+    width: 250px;
     margin: auto;
     border-radius: 50%;
     border: #ec193c 3px solid; }
