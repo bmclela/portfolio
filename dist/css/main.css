@@ -59,14 +59,14 @@
       background: url("../img/portrait.jpg");
       background-size: 100%;
       border-radius: 50%;
-      border: solid 3px #eed64e; }
+      border: solid 3px #aa3535; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eed64e; }
+      color: #aa3535; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -78,7 +78,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eed64e; }
+      color: #aa3535; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eed64e; }
+  color: #aa3535; }
 
 main {
   padding: 4rem;
@@ -152,7 +152,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eed64e;
+        color: #aa3535;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -171,7 +171,7 @@ main {
     width: 250px;
     margin: auto;
     border-radius: 50%;
-    border: #eed64e 3px solid; }
+    border: #aa3535 3px solid; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job-1 {
@@ -183,7 +183,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #eed64e; }
+    border-bottom: #aa3535; }
 
 .projects {
   display: grid;
@@ -194,7 +194,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eed64e;
+      border-color: #aa3535;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -211,7 +211,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eed64e;
+      background: #aa3535;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -222,7 +222,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eed64e;
+    background: #aa3535;
     color: #000; }
 
 .btn-dark {
