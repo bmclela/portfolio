@@ -45,7 +45,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0);
     .portrait {
-      background: url("../img/portrait.jpg");
+      background: url('../img/portrait.jpg');
       width: 150px;
       height: 150px;
       background-size: 100%;
@@ -54,11 +54,11 @@
 
   .about-info {
     grid-template-areas:
-      "bioimage"
-      "bio"
-      "job1"
-      "job2"
-      "job3";
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
 
     grid-template-columns: 1fr;
   }
@@ -94,5 +94,20 @@
 
   .boxes div {
     font-size: 1rem;
+  }
+
+  .quotation {
+    font-size: 16px !important;
+    text-align: center;
+    padding: 10px 20px;
+    line-height: 1.4;
+    font-style: italic;
+  }
+
+  footer {
+    margin: 0;
+    text-align: right;
+    font-size: 12px !important;
+    font-style: italic;
   }
 }
