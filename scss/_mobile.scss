@@ -3,12 +3,18 @@
   // .projects {
   //   grid-template-columns: repeat(4, 1fr);
   // }
+  .boxes {
+    margin-top: 8rem;
+  }
 }
 
 // Desktops and Laptops
 @include mediaLg {
   .projects {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .boxes {
+    margin-top: 8rem;
   }
 }
 
